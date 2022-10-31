@@ -1,0 +1,458 @@
+{
+	"name": "dark",
+	"colors": {
+		"focusBorder": "#d49639",
+		"foreground": "#d2d2d2",
+		"editor.background": "#2a2828",
+		"editor.foreground": "#d2d2d2",
+		"editorLineNumber.foreground": "#bbb",
+		"editorLineNumber.activeForeground": "#dddddd",
+		"editorGutter.background": "#313130",
+		"editor.lineHighlightBackground": "#2a3c4c3a",
+		"editor.lineHighlightBorder": "#35353500",
+		
+		"dropdown.background": "#202120",
+		"dropdown.foreground": "#d2d2d2",
+		"dropdown.border": "#232223",
+		"breadcrumb.background": "#2e2f2f",
+		"breadcrumb.foreground": "#bdbdbd",
+		"breadcrumb.focusForeground": "#dddddd",
+		"breadcrumb.activeSelectionForeground": "#dddddd",
+		"breadcrumbPicker.background": "#2e2f2f",
+		"scrollbar.shadow": "#0000",
+		
+		
+		"window.activeBorder": "#232223",
+		"window.inactiveBorder": "#232223",
+		"activityBar.dropBorder": "#232223",
+		"activityBar.border": "#232223",
+		"activityBar.activeBorder": "#d49639",
+		"activityBar.activeFocusBorder": "#d49639",
+		
+		
+		"editorGroup.border": "#232223",
+		"editorGroup.dropBackground": "#ffffff1a",
+		"editorGroup.emptyBackground": "#2a2828",
+		"editorGroup.focusedEmptyBorder": "#232223",
+		"editorGroupHeader.noTabsBackground": "#2e2f2f",
+		"editorGroupHeader.tabsBackground": "#2e2f2f",
+		"editorGroupHeader.tabsBorder": "#232223",
+		"editorGroupHeader.border": "#232223",
+		"tab.border": "#232223",
+		"tab.activeBackground": "#242425",
+		"tab.activeForeground": "#f2f2f2",
+		"tab.activeBorder": "#0000",
+		"tab.activeModifiedBorder": "#232223",
+		"tab.activeBorderTop": "#2e2f2f",
+		"tab.hoverBackground": "#292929",
+		"tab.hoverForeground": "#ededed",
+		"tab.hoverBorder": "#232223",
+		"tab.inactiveBackground": "#353535",
+		"tab.inactiveForeground": "#cccccc",
+		"tab.inactiveModifiedBorder": "#232223",
+		"tab.unfocusedActiveBackground": "#1e1e1f",
+		"tab.unfocusedActiveForeground": "#cccccc",
+		"tab.unfocusedActiveBorder": "#0000",
+		"tab.unfocusedActiveModifiedBorder": "#232223",
+		"tab.unfocusedActiveBorderTop": "#232223",
+		"tab.unfocusedHoverBackground": "#292929",
+		"tab.unfocusedHoverForeground": "#ededed",
+		"tab.unfocusedHoverBorder": "#232223",
+		"tab.unfocusedInactiveBackground": "#353535",
+		"tab.unfocusedInactiveForeground": "#a6a6a6",
+		"tab.unfocusedInactiveModifiedBorder": "#232223",
+		"tab.lastPinnedBorder": "#232223",
+		"editorPane.background": "#232223",
+		"sideBySideEditor.horizontalBorder": "#232223",
+		"sideBySideEditor.verticalBorder": "#232223",
+
+		"editorOverviewRuler.border": "#232223",
+
+		"panel.background": "#2e2f2f",
+		"panel.border": "#232223",
+		"panel.dropBorder": "#d49639",
+
+		"panelTitle.activeBorder": "#d49639",
+		"panelTitle.activeForeground": "#e2e2e2",
+		"panelTitle.inactiveForeground": "#bbbbbb",
+
+		"sideBar.background": "#2e2f2f",
+		"sideBar.foreground": "#d2d2d2",
+		"sideBar.border": "#232223",
+		"sideBar.dropBackground": "#ffffff1a",
+		"sideBarTitle.foreground": "#d8d8d8",
+		"sideBarSectionHeader.background": "#2e2f2f",
+		"sideBarSectionHeader.foreground": "#d8d8d8",
+		"sideBarSectionHeader.border": "#232223"
+	},
+	"tokenColors": [
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#ff0040",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "Color Definitions",
+			"scope": [
+				"constant.other.color",
+				"constant.other.color.rgb-value.hex.css",
+				"punctuation.definition.constant.css",
+				"support.constant.color.w3c-standard-color-name.css",
+				"support.function.css",
+				"support.function.misc.css",
+				"support.function.gradient.css",
+				"support.function.transform.css"
+			],
+			"settings": {
+				"foreground": "#dab6c8"
+			}
+		},
+
+		{
+			"name": "Brackets / Colon / Semi Colon / Comma / Other",
+			"scope": [
+				"source.lua",
+				"punctuation",
+				"meta.brace.round",
+				"meta.brace.square",
+				"keyword.symbol",
+				"binding.fsharp keyword.fsharp",
+				"constant.language.unit.fsharp"
+				
+				
+			],
+			"settings": {
+				"foreground": "#c9ab84",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "Operators (Including html brackets)",
+			"scope": [
+				
+				"keyword.operator",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded"
+				
+			],
+			"settings": {
+				"foreground": "#c9ab84",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#808080",
+				"fontStyle": ""
+			}
+		},
+
+
+		{
+			"name": "Storage (local/let/const/function)",
+			"scope": [
+				"storage",
+				"keyword",
+				"keyword.operator.word",
+				"meta.function.lua keyword.control"
+				
+			],
+			"settings": {
+				"foreground": "#d2574e",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Control (if/else/end/return)",
+			"scope": [
+				"keyword.control",
+				"keyword.operator.logical"
+			],
+			"settings": {
+				"foreground": "#d28a4e",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "built in function",
+			"scope": [
+				"support.function",
+				"support.function.builtin",
+				"support.function.lua",
+				"support.function.library",
+				"variable.other.object.js"
+			],
+			"settings": {
+				"foreground": "#d1925e",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Function Calls / Names",
+			"scope": [
+				
+			],
+			"settings": {
+				"foreground": "#dcc497",
+				"fontStyle": ""
+			}
+		},
+
+
+		{
+			"name": "Module exports",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#cf8978",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "self/this",
+			"scope": [
+				"variable.language.self.lua",
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python",
+				"variable.language.this.js"
+				
+			],
+			"settings": {
+				"foreground": "#d46359",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				
+				"meta.function-call.arguments",
+				"support.variable",
+
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method",
+				"support.class",
+
+				"entity.name.class"
+			],
+			"settings": {
+				"foreground": "#d2d2d2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
+				"punctuation.definition.string.template.begin.js",
+				"punctuation.definition.string.template.end.js"
+				
+			],
+			"settings": {
+				"foreground": "#d9b4cc",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": [
+				"constant.numeric",
+				"keyword.other.unit",
+				"keyword.other",
+				"support.constant.property-value.css"
+				
+			],
+			"settings": {
+				"foreground": "#afc395",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Bool (true/false/null/nil/undefined), self/this",
+			"scope": [
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape"
+				
+			],
+			"settings": {
+				"foreground": "#d46359",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Local Property Color",
+			"scope": [
+				"entity"
+			],
+			"settings": {
+				"foreground": "#d2d2d2",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "HTML tags and CSS tag selectors",
+			"scope": [
+				"entity.name",
+				"source.css entity.other.attribute-name",
+				"source.sass entity.other.attribute-name",
+				"source.scss entity.other.attribute-name",
+				"source.less entity.other.attribute-name",
+				"source.stylus entity.other.attribute-name",
+				"source.postcss entity.other.attribute-name",
+				"entity.tag"
+			],
+			"settings": {
+				"foreground": "#d8a56a",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "HTML attribute",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#d6c8b8",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "JSON key",
+			"scope": [
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json",
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#d6c8b8",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "HTML text",
+			"scope": [
+				"text.html"
+			],
+			"settings": {
+				"foreground": "#d2d2d2",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "CSS properties",
+			"scope": [
+				"support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#d6c8b8",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "CSS important",
+			"scope": [
+				"keyword.other.important.css"
+			],
+			"settings": {
+				"foreground": "#df3232",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "CSS predefined colours",
+			"scope": [
+				"meta.property-value.css",
+				"support.constant.vendored.property-value.css",
+				"support.constant.font-name.css",
+				"support.constant.media.css"
+				
+			],
+			"settings": {
+				"foreground": "#d6a3a3",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "CSS webkit",
+			"scope": [
+				"source.css support.type",
+				"source.sass support.type",
+				"source.scss support.type",
+				"source.less support.type",
+				"source.stylus support.type",
+				"source.postcss support.type"
+			],
+			"settings": {
+				"foreground": "#dbaa7c",
+				"fontStyle": ""
+			}
+		},
+
+		{
+			"name": "CSS element tags",
+			"scope": [
+				"source.css entity.name.tag",
+				"source.sass entity.name.tag",
+				"source.scss entity.name.tag",
+				"source.less entity.name.tag",
+				"source.stylus entity.name.tag",
+				"source.postcss entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#dd825e",
+				"fontStyle": ""
+			}
+		},
+
+
+		{
+			"name": "CSS Control (media)",
+			"scope": [
+				"source.css keyword.control",
+				"source.sass keyword.control",
+				"source.scss keyword.control",
+				"source.less keyword.control",
+				"source.stylus keyword.control",
+				"source.postcss keyword.control"
+			],
+			"settings": {
+				"foreground": "#e0cd76",
+				"fontStyle": ""
+			}
+		}
+	]
+}
